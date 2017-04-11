@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+<!--     <LinearLayout
+        android:id="@+id/ll_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" > -->
+    <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <TextView
+             android:id="@+id/tv_start"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:textColor="#ff0000"
+            android:text="dd"/>
+     <TextView
+             android:id="@+id/tv_camera"
+             android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="#ff0000"
+            android:text="相机"/>
+         <TextView
+             android:id="@+id/tv_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:visibility="gone"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:textColor="#ff0000"
+            android:text="聊天"/>
+ <!--    </LinearLayout> -->
+    
+
+</LinearLayout>
